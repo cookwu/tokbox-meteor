@@ -3,7 +3,9 @@ Tokbox for Meteor
 
 # Integrate real-time communications into your website and mobile apps using the OpenTok WebRTC API
 
-**opentok-npm v2.3.0* **opentok.min.js v2.6.6** **opentok-layout-js v0.0.12**
+**This package is forked from [aspin/tokbox-meteor](https://github.com/aspin/tokbox-meteor)**
+
+**opentok-npm v2.4.0* **opentok.min.js v2.9.1** **opentok-layout-js v0.5.0**
 
 ##### Important Notes:
 
@@ -18,7 +20,7 @@ Archiving, createSession, and generateToken functions have changed.
 ## Installation
 
 ~~~shell
-meteor add carlodicelico:tokbox
+meteor add cookwu:tokbox
 ~~~
 
 ## Server-side usage
@@ -99,7 +101,11 @@ BrowserPolicy.content.allowOriginForAll("http://*.opentok.com:*");
 ```
 
 ### Changelog
-
+  + Update opentok.min.js to v2.9.1
+  + Update opentok-layout-js to 0.5.0
+  + Update to opentok-npm 2.4.0
+  + Update meteor api version
+  + Update underscore dependency
   + Update package to be 0.9.x compatible
   + Update opentok.min.js to v2.2.9
   + Update opentok.min.js to v2.2.8
